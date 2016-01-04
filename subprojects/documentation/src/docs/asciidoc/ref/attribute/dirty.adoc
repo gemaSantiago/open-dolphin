@@ -28,7 +28,7 @@ bindInfo "dirty" of textAttributeModel using { state -> !state } to "disabled" o
 ----
 
 Javascript example
-[source,js]
+[source,javascript]
 ----
 textAttributeModel.onDirty(function (event) { // <1>
     button.disabled = !event.newValue;
